@@ -1,0 +1,33 @@
+{
+  "auth": {
+    "email_exists": "Un compte avec cette adresse e-mail existe déjà",
+    "invalid_credentials": "Adresse e-mail ou mot de passe invalide",
+    "unauthorized": "Une authentification est requise pour accéder à cette ressource"
+  },
+  "employer": {
+    "tin_exists": "Un employeur avec ce NIF existe déjà",
+    "profile_exists": "Cet utilisateur possède déjà un profil d'employeur",
+    "not_found": "Employeur introuvable",
+    "access_denied": "Vous n'avez pas accès à ce profil d'employeur",
+    "profile_required": "Vous devez créer un profil d'employeur avant d'effectuer cette action"
+  },
+  "employee": {
+    "national_id_exists": "Un employé avec ce numéro d'identité nationale existe déjà",
+    "not_found": "Employé introuvable",
+    "not_belong": "Un ou plusieurs employés n'appartiennent pas à cet employeur"
+  },
+  "declaration": {
+    "period_exists": "Une déclaration pour cette période existe déjà",
+    "not_found": "Déclaration introuvable",
+    "submit_requires_draft": "Seules les déclarations en brouillon peuvent être soumises",
+    "validate_requires_submitted": "Seules les déclarations soumises peuvent être validées",
+    "reject_requires_submitted": "Seules les déclarations soumises peuvent être rejetées",
+    "cannot_delete": "Les déclarations soumises et validées ne peuvent pas être supprimées"
+  },
+  "common": {
+    "internal_error": "Une erreur inattendue s'est produite. Veuillez réessayer plus tard.",
+    "forbidden": "Vous n'avez pas la permission d'effectuer cette action",
+    "too_many_requests": "Trop de requêtes. Veuillez réessayer plus tard.",
+    "bad_request": "La requête contient des données invalides"
+  }
+}

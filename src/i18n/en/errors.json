@@ -1,0 +1,33 @@
+{
+  "auth": {
+    "email_exists": "An account with this email address already exists",
+    "invalid_credentials": "Invalid email or password",
+    "unauthorized": "Authentication is required to access this resource"
+  },
+  "employer": {
+    "tin_exists": "An employer with this TIN already exists",
+    "profile_exists": "This user already has an employer profile",
+    "not_found": "Employer not found",
+    "access_denied": "You do not have access to this employer profile",
+    "profile_required": "You must create an employer profile before performing this action"
+  },
+  "employee": {
+    "national_id_exists": "An employee with this National ID already exists",
+    "not_found": "Employee not found",
+    "not_belong": "One or more employees do not belong to this employer"
+  },
+  "declaration": {
+    "period_exists": "A declaration for this period already exists",
+    "not_found": "Declaration not found",
+    "submit_requires_draft": "Only draft declarations can be submitted",
+    "validate_requires_submitted": "Only submitted declarations can be validated",
+    "reject_requires_submitted": "Only submitted declarations can be rejected",
+    "cannot_delete": "Submitted and validated declarations cannot be deleted"
+  },
+  "common": {
+    "internal_error": "An unexpected error occurred. Please try again later.",
+    "forbidden": "You do not have permission to perform this action",
+    "too_many_requests": "Too many requests. Please try again later.",
+    "bad_request": "The request contains invalid data"
+  }
+}
